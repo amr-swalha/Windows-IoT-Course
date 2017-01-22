@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="FrontRP.Examples.ExBtn"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FrontRP.Examples"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="BtnMain" Content="Click Me!"
+                Background="Blue"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                BorderBrush="Red" BorderThickness="8" ClickMode="Press"
+                Foreground="White" FontSize="16" FontFamily="Arial" IsEnabled="True"
+                Click="BtnMain_OnClick" GotFocus="BtnMain_OnGotFocus" LostFocus="BtnMain_OnLostFocus"/>
+
+
+    </Grid>
+</Page>
