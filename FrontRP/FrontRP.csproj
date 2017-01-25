@@ -98,6 +98,9 @@
     <Compile Include="Examples\ExBtn.xaml.cs">
       <DependentUpon>ExBtn.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Examples\ExScrollView.xaml.cs">
+      <DependentUpon>ExScrollView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Examples\ExCalendar.xaml.cs">
       <DependentUpon>ExCalendar.xaml</DependentUpon>
     </Compile>
@@ -130,6 +133,10 @@
     <Page Include="Examples\ExBtn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Examples\ExScrollView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Examples\ExCalendar.xaml">
       <SubType>Designer</SubType>
