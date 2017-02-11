@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using FrontRP.API;
 using FrontRP.Examples;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -31,6 +32,11 @@ namespace FrontRP
         private void ClickMe_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ExScrollView), null);
+        }
+
+        private void VistorBtn_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(VisitorsPage), null);
         }
     }
 }
