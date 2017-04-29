@@ -9,7 +9,9 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel>
-            <TextBlock x:Name="txte" TextWrapping="Wrap" Text="active buzzer"/>
+            <TextBlock x:Name="txte1" TextWrapping="Wrap" Text="active buzzer"/>
+            <TextBlock x:Name="txte2" TextWrapping="Wrap" Text="active buzzer"/>
+            <TextBlock x:Name="txte" TextWrapping="Wrap" Text="here active buzzer"/>
             <Button x:Name="BtnSwitch" Content="Active buzzer" HorizontalAlignment="Left" VerticalAlignment="Top" Click="BtnSwitch_OnClick"/>
             <TextBlock x:Name="txtstatus" TextWrapping="Wrap" Text=""/>
 
